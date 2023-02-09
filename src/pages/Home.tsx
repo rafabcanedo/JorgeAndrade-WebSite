@@ -1,10 +1,12 @@
 import React from "react";
 import { Pencil, CalendarCheck, LightbulbFilament } from 'phosphor-react';
 
+import { Title } from "../components/Title";
 import Services from "../components/Services";
 
 import LogoJorge from '../assets/logoJorge.jpg';
 import Incentivo from '../assets/Incentivo.png';
+import Canedo from '../assets/canedo.jpg';
 
 const Home = () => {
  return(
@@ -38,7 +40,7 @@ const Home = () => {
     <Services />
   </div>
 
-  <div className="min-h-screen flex py-10 md:flex-row flex-col items-center">
+  <div className="min-h-screen flex py-10 md:flex-row flex-col items-center justify-center">
   <div >
    <h3 className="font-jost text-dark font-bold text-2xl">
     Construindo uma rotina inabalável ao lado da Produtividade
@@ -68,6 +70,42 @@ const Home = () => {
   <div>
   <img src={Incentivo} alt="Cartoon Incentivos" width={600} height={600} />
   </div>
+  </div>
+
+  <div>
+    <Title title="Feedback" />
+    <h1 className="text-xl w-96 mx-auto leading-normal text-center">
+      O que meus mentorados estão falando sobre mim?
+    </h1>
+    <div className="flex max-w-5xl mx-auto gap-8 mt-12">
+     <div className="bg-dark cursor-pointer p-8 rounded-xl mix-blend-luminosity">
+      <img src={Canedo} alt="foto feedback"  className=" rounded-full h-20 mx-auto" />
+      <h4 className="uppercase text-xl font-semibold text-primary font-inter text-center mt-4">Rafael Canedo</h4>
+      <p className="text-white font-jost leading-7 my-3 opacity-50 justify-start">
+       Teste Canedo musculoso e modelo teste teste teste teste <br />
+       Alo alo alo açaí sem granola por favor
+       aaaa bbbb cccc
+      </p>
+     </div>
+     <div className="bg-dark cursor-pointer p-8 rounded-xl mix-blend-luminosity">
+      <img src={Canedo} alt="foto feedback"  className=" rounded-full h-20 mx-auto" />
+      <h4 className="uppercase text-xl font-semibold text-primary font-inter text-center mt-4">Rafael Canedo</h4>
+      <p className="text-white font-jost leading-7 my-3 opacity-50 justify-start">
+       Teste Canedo musculoso e modelo teste teste teste teste <br />
+       Alo alo alo açaí sem granola por favor
+       aaaa bbbb cccc
+      </p>
+     </div>
+     <div className="bg-dark cursor-pointer p-8 rounded-xl mix-blend-luminosity">
+      <img src={Canedo} alt="foto feedback"  className=" rounded-full h-20 mx-auto" />
+      <h4 className="uppercase text-xl font-semibold text-primary font-inter text-center mt-4">Rafael Canedo</h4>
+      <p className="text-white font-jost leading-7 my-3 opacity-50 justify-start">
+       Teste Canedo musculoso e modelo teste teste teste teste <br />
+       Alo alo alo açaí sem granola por favor
+       aaaa bbbb cccc
+      </p>
+     </div>
+    </div>
   </div>
   </>
  );

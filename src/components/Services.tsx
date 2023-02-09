@@ -8,7 +8,7 @@ const Services = () => {
   <Title title="Se conectando a mim" />
 
   <div className="container mx-auto">
-  <div className="grid lg:grid-cols-4 gap-10">
+  <div className="grid lg:grid-cols-4 gap-10 justify-center">
 
    <div className="bg-dark p-6 rounded-2xl">
     <div className="text-primary rounded-sm w-12 h-12 flex justify-center items-center mb-24 text-[28px]">

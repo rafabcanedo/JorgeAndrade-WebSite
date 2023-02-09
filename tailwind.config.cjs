@@ -14,6 +14,7 @@ module.exports = {
       'subtitle': '#878e99',
       'navbar': '#e7eaf6',
       'dark': '#232323',
+      'form': '#f2f2f2',
     },
     fontFamily: {
       inter: ['Inter', 'sans-serif'],
