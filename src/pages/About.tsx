@@ -57,7 +57,7 @@ const About = () => {
      </span>
 
      <div className="flex justify-center items-center mt-8">
-     <button className="relative text-white font-semibold bg-primary py-2 px-4 rounded-lg">
+     <button className="relative text-white font-semibold bg-[#f96d00] hover:bg-[#16a34a] py-2 px-4 rounded-lg">
       <a href="https://www.youtube.com/watch?v=T_XcsedIKEs" target="_blank">
       Episódio do Podcast
       </a>

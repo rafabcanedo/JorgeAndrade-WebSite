@@ -1,5 +1,5 @@
 import React from "react";
-import { InstagramLogo, WhatsappLogo, Books, Envelope } from 'phosphor-react';
+import { InstagramLogo, WhatsappLogo, TiktokLogo, Envelope } from 'phosphor-react';
 
 const Footer = () => {
  return (
@@ -14,11 +14,11 @@ const Footer = () => {
       <InstagramLogo size={25} />
      </a>
 
-     <a href="#" target="_blank">
-     <Books size={25} />
+     <a href="https://www.tiktok.com/@eusoujorgeandrade14" target="_blank">
+     <TiktokLogo size={25} />
      </a>
 
-     <a href="#" target="_blank">
+     <a href="https://api.whatsapp.com/send?phone=5514997782272&text=" target="_blank">
      <WhatsappLogo size={25} />
      </a>
 

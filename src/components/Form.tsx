@@ -4,7 +4,7 @@ import { InstagramLogo, Phone, Envelope, WhatsappLogo, LinkedinLogo } from 'phos
 const Form = () => {
  return(
  <div className="flex w-full min-h-screen justify-center items-center">
-  <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-primary w-full max-w-4xl p-8 rounded-xl shadow-lg text-white">
+  <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-primary opacity-70 w-full max-w-4xl p-8 rounded-xl shadow-lg text-white">
 
   <div className="flex flex-col space-y-8 justify-between">
    <div>
@@ -46,45 +46,8 @@ const Form = () => {
   </div>
 
   <div>
-   <div className="bg-white rounded-xl shadow-lg p-8 text-subtitle md:w-80">
-     <form action="" className="flex flex-col space-y-4">
-      <div>
-        <label className="text-sm">Seu Nome</label>
-     
-        <input 
-         type="text" 
-         placeholder="Nome Completo" 
-         className="ring-1 ring-form w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-navbar"
-        />
-      </div>
-
-      <div>
-        <label className="text-sm">Seu Email</label>
-
-        <input 
-         type="email" 
-         placeholder="Seu Email" 
-         className="ring-1 ring-form w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-navbar"
-        />
-      </div>
-
-      <div>
-        <label className="text-sm">Sua Mensagem</label>
-
-        <textarea
-         placeholder="Digite sua mensagem aqui"
-         className="ring-1 ring-form w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-navbar"
-        ></textarea>
-      </div>
-
-      <button 
-       className="inline-block self-end bg-primary text-white font-bold rounded-lg px-6 py-2 uppercase text-sm"
-      >
-        Enviar Mensagem
-      </button>
-
-     </form>
-   </div>
+<h3>Se </h3>
+<h2>Entre em contato</h2>
   </div>
   
   </div>
