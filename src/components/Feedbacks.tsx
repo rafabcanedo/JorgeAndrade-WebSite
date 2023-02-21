@@ -6,7 +6,7 @@ const Feedbacks = () => {
  return(
     <div>
     <Title title="Feedback" />
-    <h1 className="text-xl w-96 mx-auto leading-normal text-center">
+    <h1 className="text-xl text-subtitle w-96 mx-auto leading-normal text-center">
       O que meus mentorados estão falando sobre mim?
     </h1>
     <div className="flex max-w-5xl mx-auto gap-8 mt-12 group">

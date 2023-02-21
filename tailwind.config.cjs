@@ -12,9 +12,10 @@ module.exports = {
       'black': '#000000',
 
       'subtitle': '#878e99',
-      'navbar': '#e7eaf6',
+      'navbar': '#242424',//'#e7eaf6',
       'dark': '#232323',
       'form': '#f2f2f2',
+      'background': '#222222',
     },
     fontFamily: {
       inter: ['Inter', 'sans-serif'],

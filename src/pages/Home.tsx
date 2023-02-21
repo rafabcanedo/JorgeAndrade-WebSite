@@ -17,7 +17,7 @@ const Home = () => {
    </div>
 
    <div className="flex-1">
-   <h3 className="font-jost text-dark font-bold text-2xl">
+   <h3 className="font-jost text-white font-bold text-2xl">
       Eu sou Jorge Andrade, um mentor de <br />
       Produtividade e Planejamento Pessoal
      </h3>
@@ -32,7 +32,7 @@ const Home = () => {
      </button>
      </a>
      <Link to="/projetos">
-     <button className="relative border-2 font-medium border-primary bg-transparent py-2 px-4 rounded-lg text-black transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-lef before:scale-x-0 before:bg-primary before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
+     <button className="relative border-2 font-medium border-primary bg-transparent py-2 px-4 rounded-lg text-primary transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-lef before:scale-x-0 before:bg-primary before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
       Meus Projetos
      </button>
      </Link>
@@ -43,11 +43,11 @@ const Home = () => {
   <div>
   <div>
     <Title title="Text" />
-    <h1 className="text-xl w-96 mx-auto leading-normal text-center">
+    <h1 className="text-xl text-subtitle w-96 mx-auto leading-normal text-center">
       O que meus mentorados estão falando sobre mim?
     </h1>
     <div className="flex max-w-5xl mx-auto gap-8 mt-12">
-     <div className="bg-dark cursor-pointer p-8 rounded-xl ">
+     <div className="bg-[#363636] cursor-pointer p-8 rounded-xl ">
      <BookOpen color="#00ad0C" size={30} />
       <h4 className="uppercase text-xl font-semibold text-primary font-inter text-center mt-4">Title</h4>
       <p className="text-white font-jost leading-7 my-3 opacity-50 justify-start">
@@ -56,7 +56,7 @@ const Home = () => {
        aaaa bbbb cccc
       </p>
      </div>
-     <div className="bg-dark cursor-pointer p-8 rounded-xl">
+     <div className="bg-[#363636] cursor-pointer p-8 rounded-xl">
      <PenNib color="#00ad0C" size={30} />
       <h4 className="uppercase text-xl font-semibold text-primary font-inter text-center mt-4">Title</h4>
       <p className="text-white font-jost leading-7 my-3 opacity-50 justify-start">
@@ -65,7 +65,7 @@ const Home = () => {
        aaaa bbbb cccc
       </p>
      </div>
-     <div className="bg-dark cursor-pointer p-8 rounded-xl">
+     <div className="bg-[#363636] cursor-pointer p-8 rounded-xl">
      <Chats color="#00ad0C" size={30} />
       <h4 className="uppercase text-xl font-semibold text-primary font-inter text-center mt-4">Title</h4>
       <p className="text-white font-jost leading-7 my-3 opacity-50 justify-start">
@@ -80,7 +80,7 @@ const Home = () => {
 
   <div className="min-h-screen flex py-10 md:flex-row flex-col items-center justify-center">
   <div >
-   <h3 className="font-jost text-dark font-bold text-2xl">
+   <h3 className="font-jost text-white font-bold text-2xl">
     Construindo uma rotina inabalável ao lado da Produtividade
    </h3>
    <div className="flex flex-col mt-4 gap-2">
@@ -92,15 +92,15 @@ const Home = () => {
   <div className="mt-12">
    <div className="flex gap-6">
    <Pencil size={32} weight="light" color="#00ad0c" />
-   <span className="text-dark text-lg font-jost font-normal">Defenir suas metas de vida</span>
+   <span className="text-white text-lg font-jost font-normal">Defenir suas metas de vida</span>
    </div>
    <div className="flex gap-6">
    <LightbulbFilament size={32} weight="light" color="#00ad0c" />
-   <span className="text-dark text-lg font-jost font-normal">Construir sua rotina para atingir as metas</span>
+   <span className="text-white text-lg font-jost font-normal">Construir sua rotina para atingir as metas</span>
    </div>
    <div className="flex gap-6">
    <CalendarCheck size={32} weight="light" color="#00ad0c" />
-   <span className="text-dark text-lg font-jost font-normal">Chegar ao objetivo com todo o caminho feito</span>
+   <span className="text-white text-lg font-jost font-normal">Chegar ao objetivo com todo o caminho feito</span>
    </div>
   </div>
   </div>

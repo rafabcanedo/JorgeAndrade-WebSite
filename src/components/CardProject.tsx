@@ -13,7 +13,7 @@ type CardProps = {
 const Card = ({ title, description, img }: CardProps) => {
  return(
   <div className="flex mt-12">
-  <div className="bg-dark cursor-pointer p-8 rounded-xl ">
+  <div className="bg-[#363636] cursor-pointer p-8 rounded-xl ">
     <img src={img} alt="Imagem Projeto" className="w-32 h-32" />
   <div className="pl-6 pt-0 font-roboto bg-subtitle">
   <h2 className="uppercase text-xl font-semibold text-primary font-inter text-center mt-4">{title}</h2>
