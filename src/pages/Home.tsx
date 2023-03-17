@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import { Pencil, CalendarCheck, LightbulbFilament, BookOpen, ChatCenteredText, Chats, Handshake, PenNib } from 'phosphor-react';
+import { Pencil, CalendarCheck, LightbulbFilament, BookOpen, Chats, PenNib, ArrowRight } from 'phosphor-react';
 
 import { Title } from "../components/Title";
 import Feedbacks from "../components/Feedbacks";
@@ -17,17 +17,18 @@ const Home = () => {
    </div>
 
    <div className="flex-1">
-   <h3 className="font-jost text-white font-bold text-2xl">
+   <h3 className="font-jost text-black font-bold text-2xl">
       Eu sou Jorge Andrade, um mentor de <br />
-      Produtividade e Planejamento Pessoal
+      Planejamento Pessoal e Inteligência Emocional
      </h3>
+     
      <span className="font-jost text-subtitle font-semibold text-xl">
       Te ajudo a construir a hábitos saudáveis e uma mentalidade inabalável
      </span>
 
      <div className="flex gap-8 mt-8">
      <a href="https://api.whatsapp.com/send?phone=5514997782272&text=" target="_blank">
-     <button className="relative text-white font-semibold bg-primary py-2 px-4 rounded-lg">
+     <button className="relative text-black font-semibold bg-primary py-2 px-4 rounded-lg">
       Fale Comigo
      </button>
      </a>
@@ -40,47 +41,54 @@ const Home = () => {
    </div>
   </section>
 
-  <div>
-  <div>
-    <Title title="Text" />
-    <h1 className="text-xl text-subtitle w-96 mx-auto leading-normal text-center">
-      O que meus mentorados estão falando sobre mim?
-    </h1>
-    <div className="flex max-w-5xl mx-auto gap-8 mt-12">
-     <div className="bg-[#363636] cursor-pointer p-8 rounded-xl ">
-     <BookOpen color="#00ad0C" size={30} />
-      <h4 className="uppercase text-xl font-semibold text-primary font-inter text-center mt-4">Title</h4>
-      <p className="text-white font-jost leading-7 my-3 opacity-50 justify-start">
-       Teste Canedo musculoso e modelo teste teste teste teste <br />
-       Alo alo alo açaí sem granola por favor
-       aaaa bbbb cccc
+  <div className="grid grid-cols-1 lg:grid-cols-3 reltive gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20">
+
+    <div className="bg-white rounded-xl shadow-2xl">
+      <div className="p-8">
+      <BookOpen color="#00ad0C" size={30} />
+      <h3 className="uppercase text-xl font-semibold text-primary my-6">Planejamento</h3>
+      <p className="text-subtitle text-lg">
+       Planejar antes dos primeiros passos é a chave
+       para chegar a um bom resultado e com maior precisão
       </p>
-     </div>
-     <div className="bg-[#363636] cursor-pointer p-8 rounded-xl">
-     <PenNib color="#00ad0C" size={30} />
-      <h4 className="uppercase text-xl font-semibold text-primary font-inter text-center mt-4">Title</h4>
-      <p className="text-white font-jost leading-7 my-3 opacity-50 justify-start">
-       Teste Canedo musculoso e modelo teste teste teste teste <br />
-       Alo alo alo açaí sem granola por favor
-       aaaa bbbb cccc
-      </p>
-     </div>
-     <div className="bg-[#363636] cursor-pointer p-8 rounded-xl">
-     <Chats color="#00ad0C" size={30} />
-      <h4 className="uppercase text-xl font-semibold text-primary font-inter text-center mt-4">Title</h4>
-      <p className="text-white font-jost leading-7 my-3 opacity-50 justify-start">
-       Teste Canedo musculoso e modelo teste teste teste teste <br />
-       Alo alo alo açaí sem granola por favor
-       aaaa bbbb cccc
-      </p>
-     </div>
+      </div>
+      <div className="bg-[#f2f2f2] pl-8 py-4">
+        <p className="flex items-center text-primary">Saiba Mais <ArrowRight className="w-5 ml-2"/></p>
+      </div>
     </div>
-  </div>
+
+    <div className="bg-white rounded-xl shadow-2xl">
+      <div className="p-8">
+      <Chats color="#00ad0C" size={30} />
+      <h3 className="uppercase text-xl font-semibold text-primary my-6">Compartilhamento</h3>
+      <p className="text-subtitle text-lg">
+       Com uma comunidade ágil, podemos compartilhar
+       ideias e objetivos para um bom crescimento
+      </p>
+      </div>
+      <div className="bg-[#f2f2f2] pl-8 py-4">
+        <p className="flex items-center text-primary">Saiba Mais <ArrowRight className="w-5 ml-2"/></p>
+      </div>
+    </div>
+
+    <div className="bg-white rounded-xl shadow-2xl">
+      <div className="p-8">
+      <PenNib color="#00ad0C" size={30} />
+      <h3 className="uppercase text-xl font-semibold text-primary my-6">Ação</h3>
+      <p className="text-subtitle text-lg">
+       Com todos os passos em mente, trabalhar a ação
+       faz com que chegamos aos objetivos facilmente
+      </p>
+      </div>
+      <div className="bg-[#f2f2f2] pl-8 py-4">
+        <p className="flex items-center text-primary">Saiba Mais <ArrowRight className="w-5 ml-2"/></p>
+      </div>
+    </div>
   </div>
 
   <div className="min-h-screen flex py-10 md:flex-row flex-col items-center justify-center">
   <div >
-   <h3 className="font-jost text-white font-bold text-2xl">
+   <h3 className="font-jost text-black font-bold text-2xl">
     Construindo uma rotina inabalável ao lado da Produtividade
    </h3>
    <div className="flex flex-col mt-4 gap-2">
@@ -92,15 +100,15 @@ const Home = () => {
   <div className="mt-12">
    <div className="flex gap-6">
    <Pencil size={32} weight="light" color="#00ad0c" />
-   <span className="text-white text-lg font-jost font-normal">Defenir suas metas de vida</span>
+   <span className="text-black text-lg font-jost font-normal">Defenir suas metas de vida</span>
    </div>
    <div className="flex gap-6">
    <LightbulbFilament size={32} weight="light" color="#00ad0c" />
-   <span className="text-white text-lg font-jost font-normal">Construir sua rotina para atingir as metas</span>
+   <span className="text-black text-lg font-jost font-normal">Construir sua rotina para atingir as metas</span>
    </div>
    <div className="flex gap-6">
    <CalendarCheck size={32} weight="light" color="#00ad0c" />
-   <span className="text-white text-lg font-jost font-normal">Chegar ao objetivo com todo o caminho feito</span>
+   <span className="text-black text-lg font-jost font-normal">Chegar ao objetivo com todo o caminho feito</span>
    </div>
   </div>
   </div>

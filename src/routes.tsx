@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import Navigation from './components/Navigation';
 
 import About from './pages/About';
-import Contact from './pages/Contact';
+import Produtos from './pages/Produtos';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 
@@ -22,7 +22,7 @@ export default function AppRouter() {
 
     <Route path="/projetos" element={<Projects />} />
 
-    <Route path="/contato" element={<Contact />} />
+    <Route path="/produtos" element={<Produtos />} />
 
    </Routes>
 

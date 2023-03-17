@@ -3,56 +3,37 @@ import { InstagramLogo, WhatsappLogo, TiktokLogo, Envelope } from 'phosphor-reac
 
 const Footer = () => {
  return (
-  <footer className="mt-16 p-16 bg-navbar relative text-test left-0 w-full">
-   <div className="w-3/4 m-8 flex justify-between items-center">
-    <div className="flex flex-col justify-center items-center">
-    <h3 className="text-lg text-white font-semibold cursor-pointer">Logo</h3>
+  <footer className="bg-navbar py-12">
+   <div className="container mx-auto">
+    <div className="flex flex-col lg:flex-row space-y-6 lg:space-y-0 items-center justify-between">
 
-    <div className="flex items-center m-8 gap-3">
+    <div className="flex space-x-6 items-center justify-center">
      
      <a href="https://www.instagram.com/eusoujorgeandrade/"  target="_blank">
-      <InstagramLogo size={25} color="#fff" />
+      <InstagramLogo size={25} color="#000" />
      </a>
 
      <a href="https://www.tiktok.com/@eusoujorgeandrade14" target="_blank">
-     <TiktokLogo size={25} color="#fff" />
+     <TiktokLogo size={25} color="#000" />
      </a>
 
      <a href="https://api.whatsapp.com/send?phone=5514997782272&text=" target="_blank">
-     <WhatsappLogo size={25} color="#fff" />
+     <WhatsappLogo size={25} color="#000" />
      </a>
 
      <a href="#" target="_blank">
-     <Envelope size={25} color="#fff" />
+     <Envelope size={25} color="#000" />
      </a>
 
-    </div>
-    </div>
-
-    <div className="list-none w-1/2 grid grid-cols-2 grid-rows-3 gap-4">
-
-     <a className="text-lg cursor-pointer w-fit text-test semibold text-white hover:underline decoration-primary">
-      Home
-     </a>
-
-     <a className="text-lg cursor-pointer w-fit text-test semibold text-white hover:underline decoration-primary">
-      Sobre
-     </a>
-
-     <a className="text-lg cursor-pointer w-fit text-test semibold text-white hover:underline decoration-primary">
-      Projetos
-     </a>
-
-     <a className="text-lg cursor-pointer w-fit text-test semibold text-white hover:underline decoration-primary">
-      Contato
-     </a>
-    </div>
     </div>
 
     <div>
-     <span className="text-white">
+     <h3 className="text-lg text-black font-semibold cursor-pointer">JA <span className="text-primary">Treinamentos</span></h3>
+    </div>
+     <span className="text-black">
       &copy; {new Date().getFullYear()} Canedo. All rights reserved. 💛
      </span>
+    </div>
     </div>
 
   </footer>
