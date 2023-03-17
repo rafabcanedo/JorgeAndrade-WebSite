@@ -41,6 +41,7 @@ const Home = () => {
    </div>
   </section>
 
+  <div className="max-w-[1240px] mx-auto relative">
   <div className="grid grid-cols-1 lg:grid-cols-3 reltive gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20">
 
     <div className="bg-white rounded-xl shadow-2xl">
@@ -84,6 +85,7 @@ const Home = () => {
         <p className="flex items-center text-primary">Saiba Mais <ArrowRight className="w-5 ml-2"/></p>
       </div>
     </div>
+  </div>
   </div>
 
   <div className="min-h-screen flex py-10 md:flex-row flex-col items-center justify-center">

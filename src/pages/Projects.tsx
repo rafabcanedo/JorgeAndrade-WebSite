@@ -1,6 +1,6 @@
-import { InstagramLogo, TiktokLogo, Envelope, WhatsappLogo, LinkedinLogo } from 'phosphor-react';
+import { InstagramLogo, TiktokLogo, WhatsappLogo } from 'phosphor-react';
 
-import CardProject from '../components/CardProject';
+import Construction from '../assets/construcao.png';
 import { Title } from '../components/Title';
 
 import Image from '../assets/foco4.png';
@@ -43,6 +43,16 @@ const Projects = () => {
   
   <div className="mt-8">
   <Title title="Projetos" />
+
+  <div className="h-screen mt-32">
+  <div className="text-center">
+    <h2 className="font-bold text-2xl">PÁGINA EM CONSTRUÇÃO 👷‍♂️</h2>
+    <div className="flex justify-center items-center">
+    <img src={Construction} alt="Imagem Pagina em contrução" width="800" height="800" />
+    </div>
+  </div>
+  </div>
+
   </div>
   </div>
  );

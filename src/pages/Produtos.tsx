@@ -61,7 +61,7 @@ const Produtos = () => {
 
      <div className="mt-8">
      <a href="https://jorgeandrade2.orbitpages.online/aula-gratuita-inscricao?v=6410f906e682a" target="_blank">
-     <button className="bg-primary text-white hover:bg-[#379956] font-semibold py-2 px-4 rounded-lg">Ir para Comunidade</button>
+     <button className="bg-primary text-white hover:bg-[#379956] font-semibold py-2 px-4 rounded-lg mb-8">Ir para Comunidade</button>
      </a>
     </div>
 

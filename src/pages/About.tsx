@@ -21,7 +21,7 @@ const About = () => {
  }, [])
 
  return(
-  <div className="mt-8">
+  <div className="mt-20">
     <Title title="Sobre Mim" />
 
     <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
@@ -55,7 +55,7 @@ const About = () => {
       um pouco sobre minha história e principalmente sobre minha mentoria.
      </span>
 
-     <div className="flex justify-center items-center mt-8">
+     <div className="flex justify-center items-center mt-8 mb-12">
      <button className="relative text-black font-semibold bg-[#f96d00] hover:bg-[#e8751a] py-2 px-4 rounded-lg">
       <a href="https://www.youtube.com/watch?v=T_XcsedIKEs" target="_blank">
       Episódio do Podcast
